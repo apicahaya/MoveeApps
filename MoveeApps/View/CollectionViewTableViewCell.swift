@@ -1,6 +1,6 @@
 //
 //  CollectionViewTableViewCell.swift
-//  NetflixClone
+//  MoveeApp
 //
 //  Created by Agni Muhammad on 08/03/22.
 //
@@ -57,7 +57,7 @@ class CollectionViewTableViewCell: UITableViewCell {
     
     private func downloadTitleAt(indexPath: IndexPath) {
         
-        print("Downloading \(titles[indexPath.row].original_title)")
+        print("Downloading \(titles[indexPath.row].original_title ?? "  ")")
     }
 }
 

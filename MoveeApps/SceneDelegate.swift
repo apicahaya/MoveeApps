@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  NetflixClone
+//  MoveeApp
 //
 //  Created by Agni Muhammad on 08/03/22.
 //
