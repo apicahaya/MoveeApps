@@ -110,29 +110,14 @@
 		D5B14F2627D708F300C51033 /* MoveeApps */ = {
 			isa = PBXGroup;
 			children = (
-				D5B14F4827D7160E00C51033 /* Managers */,
-				D5B14F4727D7160800C51033 /* Resources */,
-				D5B14F4627D715FC00C51033 /* Models */,
-				D5B14F4527D715ED00C51033 /* View */,
-				D5B14F4427D715E300C51033 /* ViewModels */,
-				D5B14F3B27D7110300C51033 /* Controllers */,
+				D5D3FE3327E829E500DBDCB6 /* VIPER */,
 				D5B14F2727D708F300C51033 /* AppDelegate.swift */,
 				D5B14F2927D708F300C51033 /* SceneDelegate.swift */,
-				D5B14F2B27D708F300C51033 /* MainTabBarViewController.swift */,
 				D5B14F3027D708F400C51033 /* Assets.xcassets */,
 				D5B14F3227D708F400C51033 /* LaunchScreen.storyboard */,
 				D5B14F3527D708F400C51033 /* Info.plist */,
 			);
 			path = MoveeApps;
-			sourceTree = "<group>";
-		};
-		D5B14F3B27D7110300C51033 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				D58011A227DB94E4008B9CF6 /* Core */,
-				D58011A327DB94F1008B9CF6 /* General */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		D5B14F4427D715E300C51033 /* ViewModels */ = {
@@ -172,12 +157,59 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		D5B14F4827D7160E00C51033 /* Managers */ = {
+		D5D3FE3327E829E500DBDCB6 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				D5D3FE4227E82E5E00DBDCB6 /* View */,
+				D5D3FE4127E82E5D00DBDCB6 /* Interactor */,
+				D5D3FE4027E82E5A00DBDCB6 /* Presenter */,
+				D5D3FE3F27E82E5900DBDCB6 /* Entity */,
+				D5D3FE3E27E82E5700DBDCB6 /* Router */,
+				D5B14F4727D7160800C51033 /* Resources */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		D5D3FE3E27E82E5700DBDCB6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D5B14F2B27D708F300C51033 /* MainTabBarViewController.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D5D3FE3F27E82E5900DBDCB6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D5B14F4627D715FC00C51033 /* Models */,
+				D5B14F4427D715E300C51033 /* ViewModels */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		D5D3FE4027E82E5A00DBDCB6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D58011A227DB94E4008B9CF6 /* Core */,
+				D58011A327DB94F1008B9CF6 /* General */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D5D3FE4127E82E5D00DBDCB6 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
 				D580118D27D97B4C008B9CF6 /* APICaller.swift */,
 			);
-			path = Managers;
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D5D3FE4227E82E5E00DBDCB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5B14F4527D715ED00C51033 /* View */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
